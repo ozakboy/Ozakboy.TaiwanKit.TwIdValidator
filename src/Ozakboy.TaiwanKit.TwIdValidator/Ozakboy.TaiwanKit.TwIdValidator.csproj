@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</TargetFrameworks>
+    <RootNamespace>Ozakboy.TaiwanKit.TwIdValidator</RootNamespace>
+    <AssemblyName>Ozakboy.TaiwanKit.TwIdValidator</AssemblyName>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <Deterministic>true</Deterministic>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Ozakboy.TaiwanKit.TwIdValidator</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Title>Ozakboy.TaiwanKit.TwIdValidator</Title>
+    <Authors>ozakboy</Authors>
+    <Description>台灣身分證/統編/手機號碼驗證套件 - Taiwan national ID (incl. resident certificate numbers), business administration number (BAN) and mobile phone number validator, with detailed parse results and test-data generation. Zero runtime dependencies.</Description>
+    <PackageTags>taiwan;validation;national-id;ban;phone;taiwankit</PackageTags>
+    <PackageProjectUrl>https://github.com/ozakboy/Ozakboy.TaiwanKit.TwIdValidator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ozakboy/Ozakboy.TaiwanKit.TwIdValidator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReleaseNotes>Initial release: Taiwan national ID validation (incl. new/old resident certificate numbers), BAN validation (incl. 2021 rule), mobile number validation and normalization, detailed parse results, and test-data generation. Changelog: https://github.com/ozakboy/Ozakboy.TaiwanKit.TwIdValidator/blob/main/docs/en/changelog.md</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
