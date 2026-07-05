@@ -1,0 +1,76 @@
+{
+  "header": {
+    "tagline": "Taiwan ID validator for .NET"
+  },
+  "nav": {
+    "docs": "Docs",
+    "changelog": "Changelog",
+    "sponsor": "Sponsor"
+  },
+  "home": {
+    "hero": {
+      "title": "TwIdValidator",
+      "subtitle": "Taiwan national ID, BAN and mobile phone validation — auto-detection of all three ID kinds, detailed parse results, test-data generation. Zero dependencies, thread-safe.",
+      "install": "Install Now",
+      "github": "View on GitHub"
+    },
+    "features": {
+      "title": "Core Features",
+      "items": {
+        "threeIds": {
+          "title": "All Three ID Kinds",
+          "desc": "National ID, new-style UI number (2021+) and old-style ARC number auto-detected, with gender and household region parsing."
+        },
+        "ban": {
+          "title": "2021 BAN Rule",
+          "desc": "Full support for the April 2021 checksum rule (multiple of 5) and the 7th-digit-7 special case."
+        },
+        "phone": {
+          "title": "Phone Validation + Normalize",
+          "desc": "Strict 10-digit 09 check; TryNormalize handles +886, spaces, dashes, parentheses and full-width digits."
+        },
+        "generator": {
+          "title": "Test-data Generator",
+          "desc": "Generates checksum-valid sample numbers, reproducible with a seed; format-valid only, never real persons."
+        }
+      }
+    },
+    "quickstart": {
+      "title": "Quick Start",
+      "step1": "1. Install the package",
+      "step2": "2. Validate immediately",
+      "step3": "3. Normalize & generate test data"
+    }
+  },
+  "docs": {
+    "title": "Documentation",
+    "intro": "Pick a topic below to get started with TwIdValidator.",
+    "sections": {
+      "gettingStarted": "Getting Started",
+      "api": "API Reference"
+    },
+    "wip": "Page content coming soon — see README.md in the GitHub repo."
+  },
+  "changelog": {
+    "title": "Changelog",
+    "intro": "See docs/en/changelog.md in the GitHub repo for the full history."
+  },
+  "sponsor": {
+    "title": "Sponsor",
+    "intro": "If TwIdValidator helps you, consider sponsoring the developer via cryptocurrency or Binance Pay.",
+    "crypto": {
+      "title": "Cryptocurrency"
+    },
+    "usdt": {
+      "title": "USDT (BEP20)",
+      "warningTitle": "BSC (Binance Smart Chain / BEP20) network only",
+      "warningBody": "Sending to other networks (ERC20 / TRC20 / Solana, etc.) will result in permanent loss of funds."
+    },
+    "binancePay": {
+      "title": "Binance Pay",
+      "desc": "Scan to sponsor via Binance Pay"
+    },
+    "copy": "Copy",
+    "copied": "Copied ✓"
+  }
+}

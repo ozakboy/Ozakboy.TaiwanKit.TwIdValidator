@@ -1,0 +1,76 @@
+{
+  "header": {
+    "tagline": "台灣證號驗證 .NET 套件"
+  },
+  "nav": {
+    "docs": "文件",
+    "changelog": "版本歷史",
+    "sponsor": "贊助"
+  },
+  "home": {
+    "hero": {
+      "title": "TwIdValidator",
+      "subtitle": "台灣身分證、統一編號、手機號碼驗證——三種證號自動辨識、詳細解析結果、假資料產生器。零依賴、線程安全。",
+      "install": "立即安裝",
+      "github": "查看 GitHub"
+    },
+    "features": {
+      "title": "核心特色",
+      "items": {
+        "threeIds": {
+          "title": "三種證號全支援",
+          "desc": "本國人身分證、新式外來人口統一證號 (2021+)、舊式居留證號自動辨識,附性別與戶籍縣市解析。"
+        },
+        "ban": {
+          "title": "統編新制檢核",
+          "desc": "完整支援財政部 2021 年 4 月新制 (5 的倍數) 與第 7 碼為 7 的特例雙取法。"
+        },
+        "phone": {
+          "title": "手機驗證＋正規化",
+          "desc": "嚴格 09 開頭 10 碼驗證;TryNormalize 處理 +886、空格、dash、括號與全形數字。"
+        },
+        "generator": {
+          "title": "測試假資料產生器",
+          "desc": "產生檢核碼合法的樣本號碼,指定 seed 可重現;僅格式合法,不對應真實人物。"
+        }
+      }
+    },
+    "quickstart": {
+      "title": "快速開始",
+      "step1": "1. 安裝套件",
+      "step2": "2. 立即驗證",
+      "step3": "3. 正規化與假資料"
+    }
+  },
+  "docs": {
+    "title": "文件",
+    "intro": "選擇下方主題開始使用 TwIdValidator。",
+    "sections": {
+      "gettingStarted": "快速開始",
+      "api": "API 參考"
+    },
+    "wip": "本頁內容整理中,完整資訊請參考 GitHub repo 的 README_zh-TW.md。"
+  },
+  "changelog": {
+    "title": "版本歷史",
+    "intro": "完整變更紀錄請見 GitHub repo 的 docs/zh-TW/changelog.md。"
+  },
+  "sponsor": {
+    "title": "贊助",
+    "intro": "如果 TwIdValidator 對您有幫助,歡迎透過加密貨幣或 Binance Pay 贊助開發者。",
+    "crypto": {
+      "title": "加密貨幣"
+    },
+    "usdt": {
+      "title": "USDT (BEP20)",
+      "warningTitle": "僅限 BSC (Binance Smart Chain / BEP20) 網路",
+      "warningBody": "匯到其他網路 (ERC20 / TRC20 / Solana 等) 將永久遺失,無法找回。"
+    },
+    "binancePay": {
+      "title": "Binance Pay",
+      "desc": "掃描以透過 Binance Pay 贊助"
+    },
+    "copy": "複製",
+    "copied": "已複製 ✓"
+  }
+}
