@@ -25,6 +25,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>logo.png</PackageIcon>
     <PackageReleaseNotes>Initial release: Taiwan national ID validation (incl. new/old resident certificate numbers), BAN validation (incl. 2021 rule), mobile number validation and normalization, detailed parse results, and test-data generation. Changelog: https://github.com/ozakboy/Ozakboy.TaiwanKit.TwIdValidator/blob/main/docs/en/changelog.md</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IncludeSymbols>true</IncludeSymbols>
@@ -40,6 +41,7 @@
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
     <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+    <None Include="..\..\logo.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
