@@ -15,7 +15,7 @@
 
   <PropertyGroup>
     <PackageId>Ozakboy.TaiwanKit.TwIdValidator</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Title>Ozakboy.TaiwanKit.TwIdValidator</Title>
     <Authors>ozakboy</Authors>
     <Description>台灣身分證/統編/手機號碼驗證套件 - Taiwan national ID (incl. resident certificate numbers), business administration number (BAN) and mobile phone number validator, with detailed parse results and test-data generation. Zero runtime dependencies.</Description>
@@ -26,7 +26,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>logo.png</PackageIcon>
-    <PackageReleaseNotes>Initial release: Taiwan national ID validation (incl. new/old resident certificate numbers), BAN validation (incl. 2021 rule), mobile number validation and normalization, detailed parse results, and test-data generation. Changelog: https://github.com/ozakboy/Ozakboy.TaiwanKit.TwIdValidator/blob/main/docs/en/changelog.md</PackageReleaseNotes>
+    <PackageReleaseNotes>Added the Ozakboy.TaiwanKit series logo as the NuGet package icon and README header. Changelog: https://github.com/ozakboy/Ozakboy.TaiwanKit.TwIdValidator/blob/main/docs/en/changelog.md</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
