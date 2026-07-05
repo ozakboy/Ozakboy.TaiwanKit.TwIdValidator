@@ -6,14 +6,14 @@ export default defineNuxtConfig({
   // Nuxt site config (used by sitemap module to prepend absolute URL)
   // 注意:url 只能放 domain,baseURL 在 app.baseURL 處理(GitHub Pages project site 規則)
   site: {
-    url: 'https://ozakboy.github.io',
+    url: 'https://twid.ozakboy.life',
     name: 'Ozakboy.TaiwanKit.TwIdValidator',
     description:
       'Taiwan national ID, business administration number (BAN) and mobile phone number validator for .NET. Detailed parse results, input normalization and test-data generation. Zero runtime dependencies.',
   },
 
   app: {
-    baseURL: '/Ozakboy.TaiwanKit.TwIdValidator/',
+    baseURL: '/',
     head: {
       title: 'TwIdValidator — 台灣身分證/統編/手機驗證 .NET 套件',
       htmlAttrs: { lang: 'zh-TW' },
@@ -48,8 +48,8 @@ export default defineNuxtConfig({
           content:
             'Validate Taiwan national IDs (all three kinds), BAN (2021 rule) and mobile numbers. Detailed parse results, normalization, test-data generation. Zero dependencies.',
         },
-        { property: 'og:url', content: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.TwIdValidator/' },
-        { property: 'og:image', content: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.TwIdValidator/logo.png' },
+        { property: 'og:url', content: 'https://twid.ozakboy.life/' },
+        { property: 'og:image', content: 'https://twid.ozakboy.life/logo.png' },
         { property: 'og:image:alt', content: 'Ozakboy.TaiwanKit logo' },
         { property: 'og:locale', content: 'zh_TW' },
         { property: 'og:locale:alternate', content: 'en_US' },
@@ -62,12 +62,12 @@ export default defineNuxtConfig({
           content:
             'Validate Taiwan national IDs, BAN and mobile numbers. Zero dependencies, thread-safe, test-data generation included.',
         },
-        { name: 'twitter:image', content: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.TwIdValidator/logo.png' },
+        { name: 'twitter:image', content: 'https://twid.ozakboy.life/logo.png' },
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: '/Ozakboy.TaiwanKit.TwIdValidator/logo.png' },
-        { rel: 'apple-touch-icon', href: '/Ozakboy.TaiwanKit.TwIdValidator/logo.png' },
-        { rel: 'canonical', href: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.TwIdValidator/' },
+        { rel: 'icon', type: 'image/png', href: '/logo.png' },
+        { rel: 'apple-touch-icon', href: '/logo.png' },
+        { rel: 'canonical', href: 'https://twid.ozakboy.life/' },
       ],
     },
   },
@@ -94,7 +94,7 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    baseUrl: 'https://ozakboy.github.io',
+    baseUrl: 'https://twid.ozakboy.life',
     locales: [
       { code: 'zh-TW', name: '繁體中文', file: 'zh-TW.json' },
       { code: 'en', name: 'English', file: 'en.json' },

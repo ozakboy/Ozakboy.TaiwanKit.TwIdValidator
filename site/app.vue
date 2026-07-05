@@ -10,9 +10,9 @@ const jsonLd = {
   operatingSystem: 'Cross-platform (.NET Standard 2.0+, .NET 8/9/10)',
   description:
     'Taiwan national ID, business administration number (BAN) and mobile phone number validator for .NET. Covers all three kinds of Taiwan ID numbers, the April 2021 BAN checksum rule, phone normalization and checksum-valid test-data generation. Zero runtime dependencies, thread-safe.',
-  url: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.TwIdValidator/',
+  url: 'https://twid.ozakboy.life/',
   downloadUrl: 'https://www.nuget.org/packages/Ozakboy.TaiwanKit.TwIdValidator/',
-  image: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.TwIdValidator/logo.png',
+  image: 'https://twid.ozakboy.life/logo.png',
   author: {
     '@type': 'Person',
     name: 'ozakboy',
